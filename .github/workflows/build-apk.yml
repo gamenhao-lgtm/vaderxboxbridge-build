@@ -24,7 +24,7 @@ jobs:
 
     - name: Extract Source ZIP
       run: |
-        unzip -q VaderXboxBridge-Prototype-Source.zip -d extracted_source
+        unzip -q VaderXboxBridge-Diagnostic-Fix-Source.zip -d extracted_source
 
     - name: Build APK with Gradle
       run: |
